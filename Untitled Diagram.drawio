@@ -1,90 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T10:35:01.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="DWqVajtcvTOapbKZ3b1n" version="24.2.3" type="github">
-  <diagram name="Page-1" id="fAm59iMJ4FASNQ7IWFi8">
-    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-04-18T12:50:04.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.3" etag="gp380o_Qi6piXeTIxoLD" type="github">
+  <diagram name="Page-1" id="9DappUpzj_w0z6Pwk079">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-1" value="IAM Role" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8uMrVJmtOFC0-g-9T-kR-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="560" as="sourcePoint" />
-            <mxPoint x="160" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-3" value="DynamoDB Full Access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8uMrVJmtOFC0-g-9T-kR-1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="370" y="480" as="sourcePoint" />
-            <mxPoint x="300" y="303" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="303" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-6" value="Lambda&lt;div&gt;Service&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="300" y="260" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8uMrVJmtOFC0-g-9T-kR-3" target="8uMrVJmtOFC0-g-9T-kR-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="460" as="sourcePoint" />
-            <mxPoint x="450" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8uMrVJmtOFC0-g-9T-kR-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="460" as="sourcePoint" />
-            <mxPoint x="370" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-10" value="Function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="8uMrVJmtOFC0-g-9T-kR-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="300" as="sourcePoint" />
-            <mxPoint x="450" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-12" value="Trigger S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8uMrVJmtOFC0-g-9T-kR-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="460" as="sourcePoint" />
-            <mxPoint x="560" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-14" value="S3&lt;div&gt;Bucket&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="530" y="400" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-15" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="630" y="370" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8uMrVJmtOFC0-g-9T-kR-15" target="8uMrVJmtOFC0-g-9T-kR-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="460" as="sourcePoint" />
-            <mxPoint x="450" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-17" value="Content" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="400" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-18" value="Trigger" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="260" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.175;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8uMrVJmtOFC0-g-9T-kR-6" target="8uMrVJmtOFC0-g-9T-kR-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="460" as="sourcePoint" />
-            <mxPoint x="450" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8uMrVJmtOFC0-g-9T-kR-23" value="Information get stored in DynamoDB table" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="500" width="60" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
